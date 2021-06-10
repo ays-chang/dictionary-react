@@ -16,6 +16,7 @@ function App() {
         <footer className="App-footer">
           <a
             href="https://github.com/ays-chang/dictionary-react"
+            rel="noreferrer"
             target="_blank"
           >
             Open-source code
