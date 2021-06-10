@@ -1,13 +1,31 @@
-import logo from "./logo.svg";
+import Dictionary from "./Dictionary";
+
+import logo from "./fox_icon.png";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello.</p>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="App-footer">
+          <a
+            href="https://github.com/ays-chang/dictionary-react"
+            target="_blank"
+          >
+            Open-source code
+          </a>{" "}
+          by{" "}
+          <a href="https://creativealice.com" rel="noreferrer" target="_blank">
+            Alice Chang
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }

@@ -1,15 +1,14 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-header {
+  margin: 30px 0;
 }
 
-.App-header {
-  background-color: #3865be;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.App-logo {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto;
+}
+
+.App-footer {
+  text-align: center;
+  margin: 30px 0;
 }
