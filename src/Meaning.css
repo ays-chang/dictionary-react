@@ -1,9 +1,15 @@
+.Meaning {
+  margin: 0;
+  padding: 0;
+}
+
 .Meaning h3 {
   color: #8c8c8c;
   font-size: 24px;
 }
 
 .Meaning .Example {
+  display: inline-block;
   font-style: italic;
   color: #8c8c8c;
   margin-left: 10px;
