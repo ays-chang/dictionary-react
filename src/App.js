@@ -25,6 +25,11 @@ function App() {
           <a href="https://creativealice.com" rel="noreferrer" target="_blank">
             Alice Chang
           </a>
+          . Project created for{" "}
+          <a href="https://www.shecodes.io/" rel="noreferrer" target="_blank">
+            SheCodes
+          </a>
+          .
         </footer>
       </div>
     </div>
